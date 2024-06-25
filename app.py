@@ -50,7 +50,6 @@ def aiPost():
 
 
 
-
 @app.route("/ask_pdf", methods=["POST"])
 def askPDFPost():
     print("Post /ask_pdf called")
